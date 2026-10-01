@@ -2,7 +2,7 @@
 
 En mobil-først webapplikation for en danseskole. Brugere kan finde hold, se holdoplysninger og administrere deres tilmeldinger. Instruktører kan se deres egne hold og deltagerlister.
 
-Projektet er udviklet som et selvstændigt portfolio-projekt af [ReedorReed](https://github.com/ReedorReed).
+Dette er mit afsluttende eksamensprojekt fra webudvikleruddannelsen hos Roskilde Tekniske Skole. Det er udviklet som et selvstændigt portfolio-projekt af [Christian Reed](https://github.com/ReedorReed).
 
 ![Forside for Landrup Dans](./app-billeder/hero.png)
 
@@ -23,6 +23,10 @@ Projektet er udviklet som et selvstændigt portfolio-projekt af [ReedorReed](htt
 - Zod til formularvalidering
 - Server Actions og httpOnly-cookie-baseret session
 - REST API-integration
+
+## Hvad projektet demonstrerer
+
+Landrup Dans er bygget med Next.js App Router og skelner bevidst mellem server- og klientansvar. Data hentes asynkront fra API'et, og tilmeldingsregler håndhæves i Server Actions, før der kaldes til API'et. Sessionen læses fra en httpOnly-cookie, så profiler og instruktørvisninger kan beskyttes på serversiden.
 
 ## Udvalgte skærmbilleder
 
